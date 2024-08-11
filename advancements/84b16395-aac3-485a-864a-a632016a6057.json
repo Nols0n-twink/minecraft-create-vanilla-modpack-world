@@ -60,10 +60,13 @@
       "minecraft:birch_forest": "2024-08-06 21:52:54 +0200",
       "minecraft:beach": "2024-08-06 16:20:47 +0200",
       "minecraft:river": "2024-08-06 21:31:17 +0200",
+      "minecraft:dripstone_caves": "2024-08-11 13:06:19 +0200",
       "minecraft:cold_ocean": "2024-08-07 09:49:20 +0200",
       "minecraft:forest": "2024-08-06 16:21:04 +0200",
+      "minecraft:lush_caves": "2024-08-11 10:45:14 +0200",
       "minecraft:deep_cold_ocean": "2024-08-07 09:49:17 +0200",
       "minecraft:ocean": "2024-08-07 09:47:56 +0200",
+      "minecraft:jungle": "2024-08-11 13:06:31 +0200",
       "minecraft:plains": "2024-08-06 14:54:12 +0200"
     },
     "done": false
@@ -2103,7 +2106,8 @@
       "seasonal_forest": "2024-08-07 20:49:17 +0200",
       "lavender_field": "2024-08-06 15:27:01 +0200",
       "grassland": "2024-08-08 11:23:46 +0200",
-      "undergrowth": "2024-08-10 22:21:42 +0200"
+      "undergrowth": "2024-08-10 22:21:42 +0200",
+      "rainforest": "2024-08-11 13:07:40 +0200"
     },
     "done": false
   },
@@ -2122,6 +2126,7 @@
       "minecraft:slime": "2024-08-10 14:41:03 +0200",
       "minecraft:phantom": "2024-08-09 15:19:15 +0200",
       "minecraft:zombified_piglin": "2024-08-08 14:15:12 +0200",
+      "minecraft:cave_spider": "2024-08-11 09:39:49 +0200",
       "minecraft:piglin": "2024-08-09 20:02:24 +0200",
       "minecraft:enderman": "2024-08-09 16:21:53 +0200",
       "minecraft:zombie": "2024-08-06 15:37:49 +0200"
@@ -8786,33 +8791,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
+      "has_copper_block": "2024-08-10 21:32:07 +0200"
     },
     "done": true
   },
-  "create:recipes/decorations/brass_bars_from_ingots_brass_stonecutting": {
+  "createdeco:recipes/decorations/copper_hull": {
     "criteria": {
-      "has_ingots_brass": "2024-08-10 22:52:26 +0200"
+      "has_item": "2024-08-10 21:32:07 +0200"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/elevator_pulley": {
+  "minecraft:recipes/building_blocks/cut_copper": {
     "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
+      "has_copper_block": "2024-08-10 21:32:07 +0200"
     },
     "done": true
   },
-  "railways:recipes/misc/crafting/semaphore": {
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
     "criteria": {
-      "has_item": "2024-08-10 22:52:53 +0200"
+      "has_copper_block": "2024-08-10 21:32:07 +0200"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/black_placard": {
+  "createdeco:recipes/decorations/copper_hull_from_stonecutting": {
     "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
+      "has_item": "2024-08-10 21:32:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-08-10 21:32:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2024-08-10 21:32:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-08-10 21:32:07 +0200"
     },
     "done": true
   },
@@ -8826,51 +8849,45 @@
     },
     "done": true
   },
-  "create:recipes/decorations/brass_ladder_from_ingots_brass_stonecutting": {
+  "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
-      "has_ingots_brass": "2024-08-10 22:52:26 +0200"
+      "has_gold_nugget": "2024-08-10 21:40:37 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
-      "has_ancient_debris": "2024-08-10 22:11:10 +0200"
+      "has_gold_nugget": "2024-08-10 21:40:37 +0200"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/brass_bars_overlay": {
+  "creategoggles:recipes/goggle_golden_helmet": {
     "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
+      "has_helmet": "2024-08-10 21:41:47 +0200"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/brass_catwalk_stairs_from_stonecutting": {
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
+      "has_bone_block": "2024-08-10 21:44:09 +0200"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/light_gray_placard": {
+  "minecraft:nether/return_to_sender": {
     "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
+      "killed_ghast": "2024-08-10 21:47:33 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blackstone_wall": {
+  "minecraft:nether/find_bastion": {
     "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
+      "bastion": "2024-08-10 21:51:19 +0200"
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
-      "blaze_rod": "2024-08-10 22:25:00 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
+      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
     },
     "done": true
   },
@@ -8880,39 +8897,39 @@
     },
     "done": true
   },
-  "create:mechanical_mixer": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
-      "0": "2024-08-10 22:49:07 +0200"
+      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
-      "has_copper_block": "2024-08-10 21:32:07 +0200"
+      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
     "criteria": {
-      "diamond_helmet": "2024-08-10 21:54:07 +0200"
+      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/cyan_placard": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
     "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
+      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
-      "has_gold_nugget": "2024-08-10 21:40:37 +0200"
+      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
     },
     "done": true
   },
-  "creategoggles:recipes/diamond_backtank": {
+  "minecraft:recipes/decorations/blackstone_wall": {
     "criteria": {
-      "has_backtank": "2024-08-10 22:18:19 +0200"
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
     },
     "done": true
   },
@@ -8928,141 +8945,9 @@
     },
     "done": true
   },
-  "createdeco:recipes/decorations/brass_bars": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/brass_tunnel": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/copper_hull": {
-    "criteria": {
-      "has_item": "2024-08-10 21:32:07 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_rose_quartz_tiles_from_polished_rose_quartz_stonecutting": {
-    "criteria": {
-      "has_polished_rose_quartz": "2024-08-10 22:52:17 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_copper": {
-    "criteria": {
-      "has_copper_block": "2024-08-10 21:32:07 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2024-08-10 21:54:06 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_door": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2024-08-10 22:11:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
-    "criteria": {
-      "has_bone_block": "2024-08-10 21:44:09 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/logistics/brass_funnel": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-08-10 21:51:43 +0200"
-    },
-    "done": true
-  },
-  "creategoggles:recipes/goggle_golden_helmet": {
-    "criteria": {
-      "has_helmet": "2024-08-10 21:41:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/orange_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "railways:recipes/transportation/benchcart": {
-    "criteria": {
-      "hasitem": "2024-08-10 23:07:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
-    "criteria": {
-      "has_copper_block": "2024-08-10 21:32:07 +0200"
-    },
-    "done": true
-  },
-  "createbigcannons:recipes/misc/cannon_welder_mirrored": {
-    "criteria": {
-      "has_blaze_burner": "2024-08-10 22:23:31 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_mesh_fence_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/gray_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "create:brass": {
-    "criteria": {
-      "0": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "creategoggles:recipes/goggle_diamond_helmet": {
-    "criteria": {
-      "has_helmet": "2024-08-10 21:54:07 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_catwalk_railing_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/red_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
     },
     "done": true
   },
@@ -9072,67 +8957,67 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/deployer": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:53 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_mesh_fence": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-08-10 21:51:43 +0200"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/attribute_filter": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
-    "criteria": {
-      "has_snout_armor_trim_smithing_template": "2024-08-10 22:11:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/hopper_minecart": {
-    "criteria": {
-      "has_minecart": "2024-08-10 23:07:33 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_bars_overlay_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2024-08-10 22:25:11 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/pink_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-08-10 21:51:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-08-10 21:51:43 +0200"
     },
@@ -9144,123 +9029,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2024-08-10 22:25:11 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/copper_hull_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-08-10 21:32:07 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_bars_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/yellow_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall": {
-    "criteria": {
-      "has_nether_bricks": "2024-08-10 22:25:11 +0200"
-    },
-    "done": true
-  },
-  "create:burner": {
-    "criteria": {
-      "0": "2024-08-10 22:23:31 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_catwalk_forge": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_support_wedge": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_support": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/electron_tube": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2024-08-10 22:23:25 +0200"
-    },
-    "done": true
-  },
-  "creategoggles:recipes/combat/modifier_remover": {
-    "criteria": {
-      "has_brass": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2024-08-10 21:58:20 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
       "has_magma_cream": "2024-08-10 21:54:05 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+  "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/green_brass_lamp": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
+      "has_netherite_scrap": "2024-08-10 21:54:06 +0200"
     },
     "done": true
   },
@@ -9270,21 +9047,135 @@
     },
     "done": true
   },
-  "tfmg:recipes/building_blocks/brass_truss_from_ingots_brass_stonecutting": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "has_ingots_brass": "2024-08-10 22:52:26 +0200"
+      "diamond_helmet": "2024-08-10 21:54:07 +0200"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/blue_brass_lamp": {
+  "creategoggles:recipes/goggle_diamond_helmet": {
     "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
+      "has_helmet": "2024-08-10 21:54:07 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+  "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
-      "has_gold_nugget": "2024-08-10 21:40:37 +0200"
+      "crying_obsidian": "2024-08-10 21:58:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-08-10 21:58:20 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
+    "criteria": {
+      "has_rose_quartz_chunk": "2024-08-10 22:02:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-08-10 22:11:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-08-10 22:11:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-08-10 22:11:10 +0200"
+    },
+    "done": true
+  },
+  "creategoggles:recipes/golden_backtank": {
+    "criteria": {
+      "has_backtank": "2024-08-10 22:11:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2024-08-10 22:11:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-08-10 22:11:54 +0200"
+    },
+    "done": true
+  },
+  "creategoggles:recipes/diamond_backtank": {
+    "criteria": {
+      "has_backtank": "2024-08-10 22:18:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-08-10 22:23:25 +0200"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_welder_mirrored": {
+    "criteria": {
+      "has_blaze_burner": "2024-08-10 22:23:31 +0200"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2024-08-10 22:23:31 +0200"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_welder": {
+    "criteria": {
+      "has_blaze_burner": "2024-08-10 22:23:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-08-10 22:25:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-08-10 22:25:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-08-10 22:25:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-08-10 22:25:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-08-10 22:25:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2024-08-10 22:25:11 +0200"
     },
     "done": true
   },
@@ -9300,99 +9191,9 @@
     },
     "done": true
   },
-  "create:rose_quartz": {
-    "criteria": {
-      "0": "2024-08-10 22:52:17 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2024-08-10 22:11:10 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/brass_hand": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/red_brass_lamp": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2024-08-10 22:25:11 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
-    "criteria": {
-      "has_rose_quartz_chunk": "2024-08-10 22:02:13 +0200"
-    },
-    "done": true
-  },
-  "creategoggles:recipes/golden_backtank": {
-    "criteria": {
-      "has_backtank": "2024-08-10 22:11:49 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/purple_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/tnt_minecart": {
-    "criteria": {
-      "has_minecart": "2024-08-10 23:07:33 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/lime_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_support_wedge_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "createbigcannons:recipes/misc/cannon_welder": {
-    "criteria": {
-      "has_blaze_burner": "2024-08-10 22:23:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2024-08-10 21:32:07 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/decorations/brass_scaffolding_from_ingots_brass_stonecutting": {
-    "criteria": {
-      "has_ingots_brass": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/yellow_brass_lamp": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
     },
     "done": true
   },
@@ -9402,39 +9203,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot": {
-    "criteria": {
-      "has_copper_block": "2024-08-10 21:32:07 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/chest_minecart": {
-    "criteria": {
-      "has_minecart": "2024-08-10 23:07:33 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/magenta_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2024-08-10 22:25:11 +0200"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/brass_nugget_from_decompacting": {
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
     "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
+      "has_nether_bricks": "2024-08-10 22:25:11 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2024-08-10 22:49:07 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/electron_tube": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:14 +0200"
     },
     "done": true
   },
@@ -9444,63 +9233,165 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+  "create:recipes/building_blocks/small_rose_quartz_tiles_from_polished_rose_quartz_stonecutting": {
     "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
+      "has_polished_rose_quartz": "2024-08-10 22:52:17 +0200"
+    },
+    "done": true
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2024-08-10 22:52:17 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/rose_quartz_tiles_from_polished_rose_quartz_stonecutting": {
+    "criteria": {
+      "has_polished_rose_quartz": "2024-08-10 22:52:17 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_bars_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/elevator_pulley": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_ladder_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_catwalk_stairs_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_bars": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_tunnel": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_door": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_funnel": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_mesh_fence_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_catwalk_railing_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/attribute_filter": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_bars_overlay_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_bars_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_support": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "creategoggles:recipes/combat/modifier_remover": {
+    "criteria": {
+      "has_brass": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "tfmg:recipes/building_blocks/brass_truss_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brass_hand": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_support_wedge_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_scaffolding_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2024-08-10 22:52:26 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:26 +0200"
     },
     "done": true
   },
   "createdeco:recipes/building_blocks/brass_window": {
     "criteria": {
       "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/furnace_minecart": {
-    "criteria": {
-      "has_minecart": "2024-08-10 23:07:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2024-08-10 21:58:20 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/blue_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone": {
-    "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brown_placard": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/brass_catwalk_railing_forge": {
-    "criteria": {
-      "has_item": "2024-08-10 22:53:09 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-08-10 21:51:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2024-08-10 22:11:54 +0200"
     },
     "done": true
   },
@@ -9516,51 +9407,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
-    },
-    "done": true
-  },
-  "create:contraption_actors": {
-    "criteria": {
-      "0": "2024-08-10 23:16:04 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/rose_quartz_tiles_from_polished_rose_quartz_stonecutting": {
-    "criteria": {
-      "has_polished_rose_quartz": "2024-08-10 22:52:17 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/return_to_sender": {
-    "criteria": {
-      "killed_ghast": "2024-08-10 21:47:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2024-08-10 22:25:00 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/curiosities/peculiar_bell": {
     "criteria": {
       "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2024-08-10 22:25:11 +0200"
     },
     "done": true
   },
@@ -9570,15 +9419,21 @@
     },
     "done": true
   },
-  "minecraft:nether/find_bastion": {
+  "createdeco:recipes/decorations/brass_catwalk_from_stonecutting": {
     "criteria": {
-      "bastion": "2024-08-10 21:51:19 +0200"
+      "has_item": "2024-08-10 22:52:26 +0200"
     },
     "done": true
   },
-  "createbigcannons:recipes/misc/big_cartridge_sheet": {
+  "railways:recipes/misc/crafting/semaphore": {
     "criteria": {
-      "has_brass_sheet": "2024-08-10 22:53:09 +0200"
+      "has_item": "2024-08-10 22:52:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/deployer": {
+    "criteria": {
+      "has_item": "2024-08-10 22:52:53 +0200"
     },
     "done": true
   },
@@ -9588,9 +9443,141 @@
     },
     "done": true
   },
-  "railways:recipes/transportation/jukeboxcart": {
+  "createdeco:recipes/decorations/black_placard": {
     "criteria": {
-      "hasitem": "2024-08-10 23:07:33 +0200"
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_bars_overlay": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/light_gray_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/cyan_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/orange_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/gray_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/red_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_mesh_fence": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/pink_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/yellow_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_catwalk_forge": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_support_wedge": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/green_brass_lamp": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/blue_brass_lamp": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/red_brass_lamp": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/purple_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/lime_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/yellow_brass_lamp": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/magenta_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/blue_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brown_placard": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_catwalk_railing_forge": {
+    "criteria": {
+      "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/big_cartridge_sheet": {
+    "criteria": {
+      "has_brass_sheet": "2024-08-10 22:53:09 +0200"
     },
     "done": true
   },
@@ -9600,39 +9587,225 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
-    "criteria": {
-      "has_copper_block": "2024-08-10 21:32:07 +0200"
-    },
-    "done": true
-  },
   "createdeco:recipes/decorations/light_blue_placard": {
     "criteria": {
       "has_item": "2024-08-10 22:53:09 +0200"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/brass_catwalk_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-08-10 22:52:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/brewing_stand": {
-    "criteria": {
-      "has_blaze_rod": "2024-08-10 22:25:00 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2024-08-10 21:51:43 +0200"
-    },
-    "done": true
-  },
   "createdeco:recipes/decorations/green_placard": {
     "criteria": {
       "has_item": "2024-08-10 22:53:09 +0200"
+    },
+    "done": true
+  },
+  "railways:recipes/transportation/benchcart": {
+    "criteria": {
+      "hasitem": "2024-08-10 23:07:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2024-08-10 23:07:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2024-08-10 23:07:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2024-08-10 23:07:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2024-08-10 23:07:33 +0200"
+    },
+    "done": true
+  },
+  "railways:recipes/transportation/jukeboxcart": {
+    "criteria": {
+      "hasitem": "2024-08-10 23:07:33 +0200"
+    },
+    "done": true
+  },
+  "create:contraption_actors": {
+    "criteria": {
+      "0": "2024-08-10 23:16:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-08-11 09:23:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-08-11 10:52:57 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_ingot_from_compacting": {
+    "criteria": {
+      "has_item": "2024-08-11 11:36:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "createdeco:recipes/misc/netherite_nugget_from_netherite_ingot": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-08-11 12:35:18 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_2": {
+    "criteria": {
+      "has_upgrade_base": "2024-08-11 12:44:59 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_3": {
+    "criteria": {
+      "has_upgrade_base": "2024-08-11 12:45:25 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2024-08-11 13:08:37 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_feeding_upgrade": {
+    "criteria": {
+      "has_feeding_upgrade": "2024-08-11 13:11:24 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2024-08-11 13:08:37 +0200"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_recipe": "2024-08-11 13:05:15 +0200"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2024-08-11 13:05:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2024-08-11 13:08:37 +0200"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_sapling": "2024-08-11 13:05:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2024-08-11 13:08:37 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_void_upgrade": {
+    "criteria": {
+      "has_void_upgrade": "2024-08-11 13:15:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2024-08-11 13:08:37 +0200"
     },
     "done": true
   },
